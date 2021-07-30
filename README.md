@@ -4,6 +4,8 @@ This repo contains a set of linting rules for Vale based on the [Splunk Style Gu
 
 [Vale](https://github.com/errata-ai/vale) is an open source prose linter that can check the content of documents in several formats against style guide rules. The goal of a prose linter is automating style guide checks in docs-as-code environments, so that style issues are detected before deploy or while editing documentation in a code editor. For a quick introduction on Vale and its features, read my blog post [First steps with Vale](https://passo.uno/posts/first-steps-with-the-vale-prose-linter/).
 
+[[_TOC_]]
+
 # Get started
 
 1. Install Vale with `brew install vale` or similar commands. See [Installation](https://docs.errata.ai/vale/install).
