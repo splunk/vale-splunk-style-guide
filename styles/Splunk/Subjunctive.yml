@@ -1,0 +1,14 @@
+extends: existence
+message: "Use the indicative or imperative moods when writing Splunk docs."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Subjunctivemood
+ignorecase: true
+level: error
+tokens:
+  - should
+  - shouldn't
+  - should not
+  - won't
+  - would
+  - wouldn't
+  - could
+  - couldn't

@@ -1,0 +1,36 @@
+extends: capitalization
+message: "'%s' should use sentence-style capitalization."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Capitalization
+level: suggestion
+scope: heading
+match: $sentence
+indicators:
+  - ':'
+exceptions:
+  - Splunk
+  - Lambda
+  - APM
+  - Observability
+  - Cloud
+  - Google
+  - Amazon
+  - Azure
+  - Kubernetes
+  - ClassLoader
+  - Linux
+  - macOS
+  - MySQL
+  - PHP
+  - Java
+  - Python
+  - AWS
+  - URL
+  - Windows
+  - OpenTelemetry
+  - Collector
+  - Connector
+  - Distribution
+  - OTel
+  - Agent
+  - SignalFX
+  - Smart

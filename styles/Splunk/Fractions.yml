@@ -1,0 +1,14 @@
+extends: existence
+message: "If you're referring to a generic fraction and not one that refers back to a specific number, hyphenate the spelled-out fraction. Use numerals and forward slashes with no additional formatting to represent numerical fractions."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Fractions
+nonword: true
+ignorecase: true
+level: warning
+scope: sentence
+tokens:
+  - '½'
+  - '¾'
+  - '\d+-\d+\/\d+'
+  - '\d+-(?:½|¾)'
+  - '\d+(?:½|¾)'
+  - '\d+\/\d+(?:rds|ths)'

@@ -1,0 +1,15 @@
+extends: existence
+message: "Use a numeral when quantifying a unit of measurement or a rate. Add a space between the numeral and the rate measurement. Use the word 'per' to describe a volume measurement."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Measurements
+nonword: true
+ignorecase: false
+level: warning
+scope: sentence
+tokens:
+  - '(?:\d+|\w+)(?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)'
+  - '[a-zA-Z]+ (?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)'
+  - '(?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)\/second'
+  - '\d+ to \d+ (?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)'
+
+
+

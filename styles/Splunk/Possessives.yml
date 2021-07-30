@@ -1,0 +1,14 @@
+extends: existence
+message: "Rewrite '%s' to not use 's."
+level: error
+ignorecase: true
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Possessives
+tokens:
+  - Splunk's
+  - Splunk Enterprise's
+  - Search's
+  - Observability Cloud's
+  - OpenTelemetry's
+  - Agent's
+  - Collector's
+  - Connector's

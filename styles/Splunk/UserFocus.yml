@@ -1,0 +1,14 @@
+extends: existence
+message: "Rewrite to be user-focused."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+ignorecase: true
+level: warning
+tokens:
+  - The purpose of this document is
+  - This document describes
+  - This page describes
+  - This page explains
+  - This document explains
+  - This section describes
+  - This section explains
+  - here

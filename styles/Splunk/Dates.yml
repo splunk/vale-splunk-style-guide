@@ -1,0 +1,11 @@
+extends: existence
+message: Use numerals for numbers associated with dates, even if the number is less than 10. Spell out the day of the week and the month. Don't use ordinals, such as 1st, 2nd, 3rd, and so on.
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Dates
+ignorecase: true
+level: error
+nonword: true
+tokens:
+  - '\d{1,2} (?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)|May|Jun(?:e)|Jul(?:y)|Aug(?:ust)|Sep(?:tember)?|Oct(?:ober)|Nov(?:ember)?|Dec(?:ember)?) \d{4}'
+  - '(?:Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)|May|Jun(?:e)|Jul(?:y)|Aug(?:ust)|Sep(?:tember)?|Oct(?:ober)|Nov(?:ember)?|Dec(?:ember)?) \d{1,2}(?:rd|nd|st) \d{4}'
+  - '(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{1,2} \d{4}'
+  - '(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec) \d{4}'

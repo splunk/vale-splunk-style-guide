@@ -1,0 +1,8 @@
+extends: existence
+message: "Try to simplify this sentence."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Technicallanguage
+nonword: true
+scope: sentence
+level: suggestion
+tokens:
+  - ';'

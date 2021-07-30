@@ -1,0 +1,29 @@
+extends: substitution
+message: "Avoid biased language. Use '%s' instead of '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Inclusivity'
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  abnormal: atypical or not typical
+  blacklist: deny list, reject, deny, or exclude
+  dummy data: placeholder data
+  flesh-colored: dark brown, cream, or beige
+  skin-toned: dark brown, cream, or beige
+  first-class: top-level
+  grandfathered: exempt
+  hangs: stops or freezes
+  hit: click, enter, or tap
+  illegal characters: special characters
+  mankind: all, everyone, humanity, or humankind
+  master: manager, primary, or main
+  master branch: main branch
+  sanity check: review
+  slave: peer or replica
+  suicide mode: time until restart
+  whitelist: allow list, allow, accept, or include
+  he: they
+  his: their
+  she: they
+  hers: their

@@ -1,0 +1,10 @@
+extends: existence
+message: "Strive for active voice and present tense in your documentation."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Activeandpresent'
+ignorecase: true
+level: warning
+raw:
+  - "(going to( |\n|[[:punct:]])[a-zA-Z]*|"
+  - "will( |\n|[[:punct:]])[a-zA-Z]*|"
+  - "won't( |\n|[[:punct:]])[a-zA-Z]*|"
+  - "[a-zA-Z]*'ll( |\n|[[:punct:]])[a-zA-Z]*)"

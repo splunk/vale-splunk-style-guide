@@ -1,0 +1,7 @@
+extends: existence
+message: 'Use straight quotation marks instead of curly quotation marks when you write.'
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Quotationmarks
+level: error
+nonword: true
+tokens:
+  - '[“][^”“]+[”]'

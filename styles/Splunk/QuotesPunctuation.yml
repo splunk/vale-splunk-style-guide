@@ -1,0 +1,7 @@
+extends: existence
+message: 'Punctuation should be inside the quotes.'
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Quotationmarks
+level: error
+nonword: true
+tokens:
+  - '["“][^"”“]+[.,]["”]'

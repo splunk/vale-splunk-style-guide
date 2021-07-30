@@ -1,0 +1,11 @@
+extends: existence
+message: "Try to avoid using first-person plural like '%s'."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Pronouns
+level: warning
+ignorecase: true
+tokens:
+  - we
+  - we'(?:ve|re)
+  - ours?
+  - us
+  - let's
