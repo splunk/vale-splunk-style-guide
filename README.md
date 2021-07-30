@@ -18,7 +18,7 @@ For more information, see [Usage](https://docs.errata.ai/vale/cli).
 
 # Use as a git submodule
 
-To use the contents of this repository as a git submodule, run the following git commands from the target repo:
+To use the contents of this repository as a [git submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules), run the following git commands from the target repo:
 
 ```bash
 git submodule add git@cd.splunkdev.com:documentation-tools/vale-splunk-style-guide.git vale
