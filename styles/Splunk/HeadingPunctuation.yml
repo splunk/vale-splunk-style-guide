@@ -1,5 +1,5 @@
 extends: existence
-message: "Don't use end punctuation in headings."
+message: "Don't use periods or exclamation marks in headings."
 nonword: true
 level: error
 scope: heading
@@ -7,6 +7,6 @@ action:
   name: edit
   params:
     - remove
-    - '.?!'
+    - '.!'
 tokens:
-  - '[a-z][.?!](?:\s|$)'
+  - '[a-z][.!](?:\s|$)'

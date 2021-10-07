@@ -1,10 +1,9 @@
 extends: existence
-message: "Always use a numeral for numbers associated with duration of time. Do this even if the number is less than 10"
+message: "Use a numeral for numbers associated with duration of time. Do this even if the number is less than 10."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time
 nonword: true
 ignorecase: false
 level: warning
 scope: sentence
 tokens:
-  - '[a-zA-Z]+ (?:hours|seconds|months|years|minutes)'
-
+  - '[a-zA-Z]+ (?:hours|seconds|weeks|months|years|minutes)'

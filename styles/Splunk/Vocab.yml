@@ -6,3 +6,6 @@ ignorecase: true
 tokens:
   - above
   - click
+  - below
+  - left
+  - right

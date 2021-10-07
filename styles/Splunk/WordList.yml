@@ -11,13 +11,13 @@ swap:
   'SIT': Splunk IT Cloud
   'SSC': Splunk Security Cloud
   'SOC': Splunk Observability Cloud
-  '(?:UNIX|Linux)': \*nix if both systems are supported
+  '(?:UNIX|Linux)': Use *nix if both Linux and UNIX are supported. 
   '(?:addon|add-On|Add-On|AddOn)': add-on|Add-on
   '(?:addons|add-Ons|Add-Ons|AddOns)': add-ons|Add-ons
   'above': higher for software versions
   'allows you to': lets you
   'at present': now
-  'backend': back end
+  'backend': Use "back end" as a noun or "back-end" as an adjective.
   'basic steps': steps
   'be sure to': make sure
   'boolean': Boolean
@@ -25,6 +25,7 @@ swap:
   'carriage return': line break
   'check out': see
   'checkbox': check box
+  'click on': click
   'cog': gear|gear icon
   'choose': select
   'consult': see
@@ -40,24 +41,22 @@ swap:
   'double click': double-click
   'drop-down': list|menu
   'earlier': lower for software versions
-  'enables you to': let's you
+  'enables you to': lets you
   'end point': endpoint
   'epoch time': UNIX time
   'execute': run
-  'FAQs': FAQ
   'fetch': retrieve
   '(?:field\/value pair|field value pair)': field-value pair
   'filename': file name
   'filesystem': file system
   'for instance': for example
-  'frontend': front end
+  'frontend': Use "front end" as a noun or "front-end" as an adjective.
   'have been': are
   'have knowledge of': know
   'have plans': plan
   'have the option to': can
   'homepage': home page
   'hostname': host name
-  'if you want to': Optional
   'Internet': internet
   'is able to': can
   '(?:key\/value pair|key value pair)': key-value pair
@@ -66,6 +65,7 @@ swap:
   'light mode': light theme
   '(?:log into|Log into|Login to|login to|Log on as|log on as)': log in
   '(?:log off|Log off)': log out
+  'may': might
   'mouse over': hover over
   'MFA': multifactor authentication
   'multivalued field': multivalue field
@@ -97,15 +97,16 @@ swap:
   'show up': appear
   'shows up': appears
   '(?:sign in|Sign in|sign on|Sign on)': log in
-  'sourcetype': source type
   'specify': select, click, or enter
   '(?:spin up|Spin up)': start
   '(?:spin down|Spin down)': stop
   'SDP': Splunk Developer Portal
+  'Splunk Cloud': Splunk Cloud Platform
   '(?:Splunk dev portal|Splunk Dev Portal)': Splunk Developer Portal
   'Splunk Enterprise platform': Splunk Enterprise
   '(?:Splunk Software|Splunk Software instance)': Splunk software
   '(?:SplunkWeb|Splunk UI|Splunk Web UI|Web UI|Web Interface)': Splunk Web
+  'Spunk': Splunk
   '(?:stand-alone|stand alone)': standalone
   'toggle': switch
   'takes you to': opens
@@ -113,6 +114,7 @@ swap:
   'tarball': TAR file
   'timeseries': time series or time-series
   'URN': URI
+  'user name': username
   'utilize': use
   'vetted': approved
   '(?:visit|Visit)': go to

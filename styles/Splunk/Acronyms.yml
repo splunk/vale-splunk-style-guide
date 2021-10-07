@@ -1,6 +1,6 @@
 extends: conditional
 message: "'%s' has no definition."
-link: https://docs.microsoft.com/en-us/style-guide/acronyms
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Acronyms
 level: suggestion
 ignorecase: false
 # Ensures that the existence of 'first' implies the existence of 'second'.
@@ -18,7 +18,6 @@ exceptions:
   - DEBUG
   - DOM
   - DPI
-  - FAQ
   - GCC
   - GDB
   - GET
@@ -43,6 +42,7 @@ exceptions:
   - JMX
   - LESS
   - LLDB
+  - MFA
   - NET
   - NOTE
   - NVDA
@@ -52,11 +52,14 @@ exceptions:
   - PHP
   - POST
   - RAM
+  - RBAC
   - REPL
+  - REST
   - RSA
   - SCM
   - SCSS
   - SDK
+  - SME
   - SQL
   - SSH
   - SSL

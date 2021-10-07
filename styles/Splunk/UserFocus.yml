@@ -1,14 +1,17 @@
 extends: existence
-message: "Rewrite to be user-focused."
+message: "Rewrite to put the focus on what the user wants to do rather than on how the document is laid out."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
 ignorecase: true
 level: warning
 tokens:
   - The purpose of this document is
-  - This document describes
-  - This page describes
-  - This page explains
-  - This document explains
-  - This section describes
-  - This section explains
-  - here
+  - This document (?:describes|explains|shows)
+  - This page (?:describes|explains|shows)
+  - This page (?:describes|explains|shows)
+  - This document (?:describes|explains|shows)
+  - This section (?:describes|explains|shows)
+  - This section (?:describes|explains|shows)
+  - The following page (?:describes|explains|shows)
+  - The following document (?:describes|explains|shows)
+  - The following section (?:describes|explains|shows)
+  - This topic (?:describes|explains|shows)

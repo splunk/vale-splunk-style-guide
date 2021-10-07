@@ -1,5 +1,5 @@
 extends: existence
-message: "Try to simplify this sentence."
+message: "Try splitting this sentence into two sentences."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Technicallanguage
 nonword: true
 scope: sentence

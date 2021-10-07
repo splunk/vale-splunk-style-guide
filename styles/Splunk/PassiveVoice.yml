@@ -1,5 +1,5 @@
 extends: existence
-message: "'%s' may be passive voice. Strive for active voice and present tense in your documentation."
+message: "'%s' might be passive voice. Strive for active voice and present tense in your documentation."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Activeandpresent'
 ignorecase: true
 level: warning
@@ -37,7 +37,6 @@ tokens:
   - clung
   - coded
   - come
-  - configured
   - copied
   - cost
   - crept

@@ -2,7 +2,7 @@ extends: existence
 message: "Use the Oxford comma in '%s'."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Comma
 scope: sentence
-level: suggestion
+level: warning
 nonword: true
 tokens:
   - '(?:[^\s,]+,){1,} \w+ (?:and|or) \w+[.?!]'

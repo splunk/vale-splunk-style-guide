@@ -1,5 +1,5 @@
 extends: existence
-message: 'Punctuation should be inside the quotes.'
+message: 'Put punctuation outside the quotation marks.'
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Quotationmarks
 level: error
 nonword: true

@@ -3,7 +3,7 @@ message: "Don't use em or en dashes in Splunk documentation."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Dashes
 ignorecase: true
 nonword: true
-level: error
+level: warning
 action:
   name: edit
   params:
@@ -12,3 +12,4 @@ action:
 tokens:
   - '—–'
   - '–'
+  - '--'

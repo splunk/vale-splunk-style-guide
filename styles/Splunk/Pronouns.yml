@@ -1,0 +1,12 @@
+extends: substitution
+message: 'Consider using the name of the person or "they" as the pronoun.'
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Inclusivity'
+level: warning
+ignorecase: true
+action:
+  name: replace
+swap:
+  he: they
+  his: their
+  she: they
+  hers: their

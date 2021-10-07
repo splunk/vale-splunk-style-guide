@@ -23,7 +23,3 @@ swap:
   slave: peer or replica
   suicide mode: time until restart
   whitelist: allow list, allow, accept, or include
-  he: they
-  his: their
-  she: they
-  hers: their

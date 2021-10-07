@@ -8,6 +8,7 @@ tokens:
   - abnormally
   - absentmindedly
   - accidentally
+  - actually
   - adventurously
   - anxiously
   - arrogantly
@@ -163,13 +164,11 @@ tokens:
   - queasily
   - queerly
   - questionably
-  - quickly
   - quietly
   - quirkily
   - quizzically
   - randomly
   - rapidly
-  - rarely
   - readily
   - really
   - reassuringly
@@ -184,7 +183,6 @@ tokens:
   - rigidly
   - roughly
   - rudely
-  - safely
   - scarcely
   - scarily
   - searchingly
@@ -223,7 +221,6 @@ tokens:
   - terribly
   - totally
   - thankfully
-  - thoroughly
   - thoughtfully
   - tightly
   - tremendously

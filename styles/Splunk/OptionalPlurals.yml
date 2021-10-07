@@ -1,7 +1,7 @@
 extends: existence
-message: "Don't use plurals in parentheses such as in '%s'."
-link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#S'
-level: error
+message: "Don't use plurals in parentheses, such as in '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Parentheses'
+level: warning
 nonword: true
 action:
   name: edit

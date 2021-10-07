@@ -1,5 +1,5 @@
 extends: existence
-message: "Try to avoid using first-person plural like '%s'."
+message: "Avoid using first-person pronouns like '%s' unless you’re using them in a tutorial."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Pronouns
 level: warning
 ignorecase: true
@@ -9,3 +9,4 @@ tokens:
   - ours?
   - us
   - let's
+  - I

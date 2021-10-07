@@ -2,7 +2,7 @@ extends: existence
 message: "Don't hyphenate '%s'."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary
 ignorecase: true
-level: error
+level: suggestion
 action:
   name: convert
   params:
@@ -12,3 +12,6 @@ tokens:
   - 'auto-\w+'
   - 'multi-\w+'
   - 'non-\w+'
+  - 'line-break'
+  - 'stand-alone'
+  - 're-\w+'

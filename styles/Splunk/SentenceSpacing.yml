@@ -1,7 +1,8 @@
 extends: existence
-message: '"%s" must contain one and only one space.'
+message: "Don't use two spaces between words. Use only one space at the end of a sentence."
 level: error
 nonword: true
 tokens:
   - '[a-z][.?!,][A-Z]'
   - '[\w.?!,\(\)\-":] {2,}[\w.?!,\(\)\-":]'
+  - '[\w.?!,\(\)\-":]. {2,}'

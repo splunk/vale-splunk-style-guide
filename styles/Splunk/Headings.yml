@@ -8,10 +8,10 @@ indicators:
   - ':'
 exceptions:
   - Splunk
+  - Splunk Enterprise
+  - Observability Cloud
   - Lambda
   - APM
-  - Observability
-  - Cloud
   - Google
   - Amazon
   - Azure

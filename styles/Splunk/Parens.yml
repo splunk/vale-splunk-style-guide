@@ -1,5 +1,5 @@
 extends: existence
-message: "Use parentheses judiciously."
+message: "Only use parentheses to introduce an abbreviation, to identify an optional step in a task, or when part of a command. Don't use parentheses in place of commas, to enclose a complete sentence, or to include unnecessary information or an afterthought."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Parentheses'
 nonword: true
 level: suggestion

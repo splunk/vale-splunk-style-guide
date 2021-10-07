@@ -1,5 +1,5 @@
 extends: existence
-message: "This number may not be properly formatted."
+message: "This number might not be properly formatted."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals
 nonword: true
 ignorecase: true
