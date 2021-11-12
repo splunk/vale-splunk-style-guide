@@ -13,6 +13,12 @@ exceptions:
   - Lambda
   - APM
   - Google
+  - AlwaysOn
+  - Profiler
+  - OpenTelemetry
+  - Layer
+  - Lambda
+  - Collector
   - Amazon
   - Azure
   - Kubernetes
@@ -27,7 +33,6 @@ exceptions:
   - URL
   - Windows
   - OpenTelemetry
-  - Collector
   - Connector
   - Distribution
   - OTel

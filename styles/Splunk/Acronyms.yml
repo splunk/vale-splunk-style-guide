@@ -30,6 +30,7 @@ exceptions:
   - HTTPS
   - IDE
   - JAR
+  - JFR
   - JSON
   - JSX
   - JVM

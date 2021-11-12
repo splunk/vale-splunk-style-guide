@@ -1,6 +1,6 @@
 extends: existence
 message: "Rewrite to put the focus on what the user wants to do rather than on how the document is laid out."
-link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/AwordaboutSplunkdocs#User-focused.'
 ignorecase: true
 level: warning
 tokens:

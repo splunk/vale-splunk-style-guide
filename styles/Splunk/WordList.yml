@@ -55,6 +55,7 @@ swap:
   'have knowledge of': know
   'have plans': plan
   'have the option to': can
+  'hex': hexadecimal
   'homepage': home page
   'hostname': host name
   'Internet': internet
@@ -118,6 +119,7 @@ swap:
   'utilize': use
   'vetted': approved
   '(?:visit|Visit)': go to
+  'wizard': guided setup
   'wish': want
 
 
