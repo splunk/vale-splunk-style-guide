@@ -72,7 +72,6 @@ swap:
   'multivalued field': multivalue field
   '(?:N\/A|N\.A\.|NA)': n/a
   '(?:on premise|on-premise|On premise|On-premise|on prem|on-prem|On prem|On-prem)': on-premises
-  'out-of-the-box': default
   'path name': path
   'pathname': path
   'percent': \%

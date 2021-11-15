@@ -1,0 +1,9 @@
+extends: existence
+message: 'Use a plain language alternative, such as "default" or "prepackaged".'
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+ignorecase: true
+level: warning
+tokens:
+  - out-of-the-box
+  - out of the box
+  - ootb
