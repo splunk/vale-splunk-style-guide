@@ -61,11 +61,10 @@ Step 3. Verify that your data is coming in
 =============================================================
 Once you have instrumented your integrations, select :strong:`Observability > APM` and check that you can see your application data in the dashboard.
 
-If your data is not appearing in Splunk APM as you expect, see :ref:`Troubleshoot your instrumentation <instr-troubleshooting>`.
-
+If your data is not appearing in Splunk APM as you expect, see :ref:`Troubleshoot your instrumentation <instr-troubleshooting>`. 
 
 Step 4. Start monitoring and troubleshooting your applications
 ==============================================================
-Break down service performance by indexing span tags. You can use span tags to generate custom request, error, and duration (RED) metrics for services. RED metrics for indexed span tags are known as Troubleshooting MetricSets. By indexing span tags to generate Troubleshooting MetricSets, you can analyze service performance by specific characteristics and attributes of each service. To set up span tags, see :ref:`Analyze service performance with span tags <apm-span-tags>`.
+Break down service performance by indexing span tags. You can use span tags to generate custom request, error, and duration (RED) metrics for services. RED metrics for indexed span tags are known as Troubleshooting MetricSets. By indexing span tags to generate Troubleshooting MetricSets, you can analyze service performance by specific characteristics and attributes of each service. To set up span tags, see :ref:`Analyze service performance with span tags <apm-span-tags>`. browser-based 
 
 You can also correlate related traces to monitor and troubleshoot the collections of traces that make up end-to-end transactions in your system. To learn more about Business Workflows, see :ref:`Correlate traces to track workflows <apm-workflows>`.
