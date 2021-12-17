@@ -54,3 +54,5 @@ exceptions:
   - Platform
   - iOS
   - Android
+  - Browser
+  - Mobile
