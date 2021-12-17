@@ -84,3 +84,9 @@ exceptions:
   - YAML
   - ZIP
   - VPN
+  - REALM
+  - ACCESS
+  - TOKEN
+  - NAME
+  - YOUR
+  - SPLUNK

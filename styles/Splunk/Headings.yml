@@ -56,3 +56,5 @@ exceptions:
   - Android
   - Browser
   - Mobile
+  - npm
+  - curl

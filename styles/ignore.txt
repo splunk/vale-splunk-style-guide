@@ -25,6 +25,8 @@ subfolders
 submodule
 the
 this
+src
+npm
 timeshift
 use
 what's

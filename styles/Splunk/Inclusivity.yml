@@ -1,7 +1,7 @@
 extends: substitution
 message: "Avoid biased language. Use '%s' instead of '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Inclusivity'
-level: warning
+level: error
 ignorecase: true
 action:
   name: replace
