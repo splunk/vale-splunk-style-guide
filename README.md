@@ -1,12 +1,14 @@
-[Vale](https://github.com/errata-ai/vale) is an open source prose linter that can check the content of documents in several formats against style guide rules. The goal of a prose linter is automating style guide checks in docs-as-code environments, so that style issues are detected before deploy or while editing documentation in a code editor. This repo contains a set of linting rules for Vale based on the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse). The project originated as [Hack 1277](https://cd.splunkdev.com/hackathons/2021/hack-1277-automate-prose-linting-for-o11y-docs). For a quick introduction on Vale and its features, read my blog post [First steps with Vale](https://passo.uno/posts/first-steps-with-the-vale-prose-linter/).
+[Vale](https://github.com/errata-ai/vale) is an open source prose linter that can check the content of documents in several formats against style guide rules. The goal of a prose linter is automating style guide checks in docs-as-code environments, so that style issues are detected before deploy or while editing documentation in a code editor. This repo contains a set of linting rules for Vale based on the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse). The project originated as a [Hackaton project](https://cd.splunkdev.com/hackathons/2021/hack-1277-automate-prose-linting-for-o11y-docs). For a quick introduction on Vale and its features, see my blog post [First steps with Vale](https://passo.uno/posts/first-steps-with-the-vale-prose-linter/).
 
 [[_TOC_]]
 
 # Get started
 
-1. Install Vale with `brew install vale` or similar commands. See [Installation](https://docs.errata.ai/vale/install).
-2. (Optional) Install the [Vale add-on for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
-4. Run `vale .` from the root folder of the repo, or save/edit a file using Visual Studio Code.
+1. Clone the repository.
+2. Install Vale with `brew install vale` or similar commands. See [Installation](https://docs.errata.ai/vale/install).
+3. (Optional) Install the [Vale add-on for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
+4. (Optional) Set `vale.core.useCLI` to `true` in the extension settings (Preferences > Extensions > Vale > Use CLI).
+5. Run `vale .` from the root folder of the repo, or save/edit a file using Visual Studio Code.
 
 For more information, see [Usage](https://docs.errata.ai/vale/cli).
 
