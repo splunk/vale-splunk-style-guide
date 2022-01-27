@@ -91,3 +91,11 @@ exceptions:
   - NAME
   - YOUR
   - SPLUNK
+  - IIS
+  - .NET
+  - NET
+  - WCF
+  - WCR
+  - CLR
+  - ASP
+  - ASP.NET

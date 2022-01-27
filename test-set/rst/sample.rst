@@ -65,6 +65,8 @@ If your data is not appearing in Splunk APM as you expect, see :ref:`Troubleshoo
 
 Step 4. Start monitoring and troubleshooting your applications
 ==============================================================
-Break down service performance by indexing span tags. You can use span tags to generate custom request, error, and duration (RED) metrics for services. RED metrics for indexed span tags are known as Troubleshooting MetricSets. By indexing span tags to generate Troubleshooting MetricSets, you can analyze service performance by specific characteristics and attributes of each service. To set up span tags, see :ref:`Analyze service performance with span tags <apm-span-tags>`. browser-based 
+Break down service performance by indexing span tags. You can use span tags to generate custom request, error, and duration (RED) metrics for services. RED metrics for indexed span tags are known as Troubleshooting MetricSets. By indexing span tags to generate Troubleshooting MetricSets, you can analyze service performance by specific characteristics and attributes of each service. To set up span tags, see :ref:`Analyze service performance with span tags <apm-span-tags>`. browser-based fetch. Retch. etcd.
+
+Over 5 megabytes. Version 1.0.0.505. 0.505
 
 You can also correlate related traces to monitor and troubleshoot the collections of traces that make up end-to-end transactions in your system. To learn more about Business Workflows, see :ref:`Correlate traces to track workflows <apm-workflows>`.
