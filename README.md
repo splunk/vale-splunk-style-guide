@@ -1,4 +1,4 @@
-[Vale](https://github.com/errata-ai/vale) is an open source prose linter that can check the content of documents in several formats against style guide rules. The goal of a prose linter is automating style guide checks in docs-as-code environments, so that style issues are detected before deploy or while editing documentation in a code editor. This repo contains a set of linting rules for Vale based on the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse). The project originated as a [Hackaton project](https://cd.splunkdev.com/hackathons/2021/hack-1277-automate-prose-linting-for-o11y-docs). For a quick introduction on Vale and its features, see my blog post [First steps with Vale](https://passo.uno/posts/first-steps-with-the-vale-prose-linter/).
+[Vale](https://github.com/errata-ai/vale) is an open source prose linter that can check the content of documents in several formats against style guide rules. The goal of a prose linter is automating style guide checks in docs-as-code environments, so that style issues are detected before deploy or while editing documentation in a code editor. This repo contains a set of linting rules for Vale based on the [Splunk Style Guide](https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Howtouse). The project originated as a [Hackaton project](https://cd.splunkdev.com/hackathons/2021/hack-1277-automate-prose-linting-for-o11y-docs). For a quick introduction on Vale and its features, go to http://go/vale.
 
 [[_TOC_]]
 
@@ -45,10 +45,11 @@ git submodule update --remote --merge
 
 Adding a Vale check to your CI/CD pipeline can help you prevent style issues from going online.
 
-To add Vale to a CI/CD pipeline, see the [sample pipeline in Hack 1227](https://cd.splunkdev.com/hackathons/2021/hack-1277-automate-prose-linting-for-o11y-docs/-/blob/main/.gitlab-ci.yml).
+To add Vale to a CI/CD pipeline, see the [sample pipeline](https://cd.splunkdev.com/hackathons/2021/hack-1277-automate-prose-linting-for-o11y-docs/-/blob/main/.gitlab-ci.yml).
 
 # Resources
 
+- http://go/vale (Splunk Docs official docs)
 - [Vale's official documentation](https://docs.errata.ai/vale/about)
 - [Vale Studio, a web-based Vale rules editor](https://vale-studio.errata.ai/)
 - [Regex101, a web-based regular expressions editor](https://regex101.com/)
@@ -57,7 +58,7 @@ To add Vale to a CI/CD pipeline, see the [sample pipeline in Hack 1227](https://
 
 To contribute to this repo, open a merge request.
 
-I suggest that contributors get acquainted with Vale first. Basic knowledge of regular expressions and YAML is a must.
+Get acquainted with Vale first. Basic knowledge of regular expressions and YAML is a must.
 
 # Goals
 
