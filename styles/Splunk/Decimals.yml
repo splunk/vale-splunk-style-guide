@@ -1,5 +1,5 @@
 extends: existence
-message: Use standard American-style formatting for commas and decimal points in numbers.
+message: Use American-style formatting for commas and decimal points in numbers.
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Decimals
 ignorecase: true
 level: error
