@@ -1,0 +1,13 @@
+release_job:
+  stage: release
+  image: registry.gitlab.com/gitlab-org/release-cli:latest
+  rules:
+    - if: $CI_COMMIT_TAG
+      when: never                                  # Do not run this job when a tag is created manually
+    - if: $CI_COMMIT_BRANCH == $CI_DEFAULT_BRANCH  # Run this job when commits are pushed or merged to the default branch
+  script:
+    - echo "Running release_job for latest version"
+  release:
+    name: 'Release latest'
+    tag_name: 'latest'
+    ref: '$CI_COMMIT_SHA'
