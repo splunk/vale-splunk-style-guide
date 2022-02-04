@@ -9,5 +9,6 @@ release_job:
     - echo "Running release_job for latest version"
   release:
     name: 'Release latest'
+    description: "Release latest version"
     tag_name: 'latest'
     ref: '$CI_COMMIT_SHA'
