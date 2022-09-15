@@ -42,3 +42,7 @@ git submodule update --remote --merge
 
 - [Vale's official documentation](https://docs.errata.ai/vale/about)
 - [Regex101, a web-based regular expressions editor](https://regex101.com/)
+
+# License
+
+This software is licensed under the Apache License 2.0. Details can be found in the file LICENSE.
