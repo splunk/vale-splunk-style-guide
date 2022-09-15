@@ -5,7 +5,7 @@
 1. Clone the repository.
 2. Install Vale with `brew install vale` or similar commands. See [Installation](https://docs.errata.ai/vale/install).
 3. (Optional) Install the [Vale add-on for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
-4. (Optional) Set `vale.core.useCLI` to `true` in the extension settings (Preferences > Extensions > Vale > Use CLI).
+4. (Optional) Set `vale.core.useCLI` to `true` in the extension settings.
 5. Run `vale .` from the root folder of the repo, or save/edit a file using Visual Studio Code.
 
 For more information, see [Usage](https://docs.errata.ai/vale/cli).
