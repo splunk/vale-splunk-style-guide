@@ -2,8 +2,8 @@ extends: existence
 message: Use American-style formatting for commas and decimal points in numbers.
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Decimals
 ignorecase: true
-level: error
+level: warning
 nonword: true
 tokens:
-  - '\s\d{1,}\.\d{3,}'
-  - '\,?\d{4,}\,?'
+  - '[^\.]\d{1,}\.\d{3,}[^\.]'
+  - '(\d{3}[-\.]?\d{3}[-\.]?\d{4})[^\w]'

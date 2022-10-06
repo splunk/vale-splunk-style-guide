@@ -1,0 +1,6 @@
+extends: sequence
+message: "Use log in as a verb. Don't use log on."
+ignorecase: true
+tokens:
+  - tag: VB|VBD|VBG|VBN|VBP|VBZ
+    pattern: '(?:log into|log in|login|log on)'

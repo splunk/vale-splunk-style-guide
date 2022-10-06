@@ -1,11 +1,10 @@
 extends: existence
 message: "Verify your use of '%s' with the Usage Dictionary."
-link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Overview#Writing'
 level: suggestion
 ignorecase: true
 tokens:
   - above
-  - click
   - below
   - left
   - right

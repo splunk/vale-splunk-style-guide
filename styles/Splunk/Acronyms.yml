@@ -99,3 +99,16 @@ exceptions:
   - CLR
   - ASP
   - ASP.NET
+  - LCP
+  - TTFB
+  - XHR
+  - SPA
+  - CLS
+  - CLR
+  - AJAX
+  - FID
+  - TLS
+  - ITE
+  - KPI
+  - ITSI
+  - IT

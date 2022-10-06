@@ -6,7 +6,7 @@ ignorecase: true
 level: warning
 scope: sentence
 tokens:
-  - '\s\d\s'
+  - '\s\d\s(?!hours|seconds|weeks|months|years|minutes)'
   - '3rd-party'
   - '3rd party'
   - '^\d'

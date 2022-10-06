@@ -1,0 +1,8 @@
+extends: sequence
+message: "Use real-time %[3]s, as real-time is an adjective here."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+level: error
+tokens:
+  - pattern: 'real'
+  - pattern: 'time'
+  - tag: NN

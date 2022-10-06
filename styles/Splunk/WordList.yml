@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: warning
+level: error
 ignorecase: false
 action:
   name: replace
@@ -17,7 +17,6 @@ swap:
   'above': higher for software versions
   'allows you to': lets you
   'at present': now
-  'backend': Use "back end" as a noun or "back-end" as an adjective.
   'basic steps': steps
   'be sure to': make sure
   'boolean': Boolean
@@ -25,20 +24,18 @@ swap:
   'carriage return': line break
   'check out': see
   'checkbox': check box
-  'click on': click
   'cog': gear|gear icon
-  'choose': select
   'consult': see
   'could': can
   'DA': add-on
   'dark mode': dark theme
   'datapoint': data point
+  'data base': database
   'data set': dataset
   'demonstrate': show
   'desire': want
   '(?:dialogue|dialogue box|modal)': dialog box
   'double-check': check|make sure
-  'double click': double-click
   'drop-down': list|menu
   'earlier': lower for software versions
   'enables you to': lets you
@@ -50,7 +47,9 @@ swap:
   'filename': file name
   'filesystem': file system
   'for instance': for example
-  'frontend': Use "front end" as a noun or "front-end" as an adjective.
+  'hard code': hard-code
+  'hard coded': hard-coded
+  'hard coding': hard-coding
   'have been': are
   'have knowledge of': know
   'have plans': plan
@@ -64,25 +63,24 @@ swap:
   'later': higher for software versions
   'launch': open
   'light mode': light theme
-  '(?:log into|Log into|Login to|login to|Log on as|log on as)': log in
   '(?:log off|Log off)': log out
   'may': might
   'mouse over': hover over
   'MFA': multifactor authentication
   'multivalued field': multivalue field
   '(?:N\/A|N\.A\.|NA)': n/a
+  'needle-in-a-haystack': Don't use. Find a plain language alternative, like hard-to-find.
   '(?:on premise|on-premise|On premise|On-premise|on prem|on-prem|On prem|On-prem)': on-premises
   'path name': path
   'pathname': path
   'percent': \%
   'perform': run
-  'plug-in': plug in as verb or plugin as noun or adjective
   'point to': hover over
   'preconfigured': configured
   'reach a decision': decide
   '(?:read only|Read only|Read-Only|readonly|Readonly)': read-only
   '(?:read-write|Read-Write|Read-write)': read/write
-  '(?:real-time|realtime|Real-time|Realtime)': real time
+  '(?:in real-time|in realtime)': real time
   'reboot': restart
   'read': see
   're-enable': reenable or enable again
@@ -91,17 +89,17 @@ swap:
   'referred to as': called
   '(?:regex|RegEx|Regex)': regular expression
   'rerun': run <something> again
-  'right click': right-click
   '(?:run time|Run time|run-time|Run-time)': runtime
   'SA': add-on
   'show up': appear
   'shows up': appears
   '(?:sign in|Sign in|sign on|Sign on)': log in
-  'specify': select, click, or enter
+  'specify': select or enter
   '(?:spin up|Spin up)': start
   '(?:spin down|Spin down)': stop
   'SDP': Splunk Developer Portal
-  'Splunk Cloud': Splunk Cloud Platform
+  'stack': Use only in specific cases where the word "stack" is used, like in the name of a CLI command or an API. Don't use to refer to a Splunk Cloud Platform deployment.
+  'Splunk Cloud ?(?:[^\s]*)': Splunk Cloud Platform 
   '(?:Splunk dev portal|Splunk Dev Portal)': Splunk Developer Portal
   'Splunk Enterprise platform': Splunk Enterprise
   '(?:Splunk Software|Splunk Software instance)': Splunk software
@@ -115,6 +113,7 @@ swap:
   'timeseries': time series or time-series
   'URN': URI
   'user name': username
+  'userbase': user base
   'utilize': use
   'vetted': approved
   '(?:visit|Visit)': go to

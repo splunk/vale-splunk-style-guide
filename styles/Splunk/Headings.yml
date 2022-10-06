@@ -59,6 +59,10 @@ exceptions:
   - npm
   - curl
   - Instrumentation
+  - Internet
+  - Explorer
+  - CDN
+  - WebViews
   - .NET
   - ASP
   - SignalFx
@@ -67,3 +71,16 @@ exceptions:
   - App
   - Service
   - WebJobs
+  - IT 
+  - Service
+  - Intelligence
+  - WebEngine
+  - Universal
+  - Nuxt.js
+  - Next.js
+  - SPA
+  - SPAs
+  - Database
+  - Performance
+  - DB
+  - Monitor

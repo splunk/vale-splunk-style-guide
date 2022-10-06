@@ -1,5 +1,6 @@
 extends: existence
 message: "Don't use exclamation points in text."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Exclamationpoints'
 nonword: true
 level: error
 tokens:
