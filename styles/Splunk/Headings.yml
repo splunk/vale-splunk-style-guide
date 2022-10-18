@@ -81,6 +81,7 @@ exceptions:
   - SPA
   - SPAs
   - Database
+  - Query
   - Performance
   - DB
   - Monitor
