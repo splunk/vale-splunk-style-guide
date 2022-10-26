@@ -4,7 +4,7 @@ link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usage
 level: suggestion
 ignorecase: true
 tokens:
-  - pattern: '(?:data|metadata)'
+  - pattern: '(?:[\s]data[\s]|[\s]metadata[\s])'
   # To be added after https://github.com/errata-ai/vale/issues/498 is solved.
   #- tag: CC|CD|DT|EX|FW|IN|JJ|JJR|JJS|LS|PDT|POS|PRP|RBvRP|TO|UH|WDT|WP|WRB
   #  skip: 5
