@@ -82,6 +82,10 @@ exceptions:
   - SPAs
   - Database
   - Query
+  - Application
+  - Monitoring
+  - MetricSets
+  - Troubleshooting
   - Performance
   - DB
   - Monitor
