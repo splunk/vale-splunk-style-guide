@@ -3,9 +3,8 @@ message: "Use data and metadata as mass nouns (singular)."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#D'
 level: suggestion
 ignorecase: true
+nonword: false
 tokens:
-  - pattern: '(?:[\s]data[\s|.]|[\s]metadata[\s|.])'
-  # To be added after https://github.com/errata-ai/vale/issues/498 is solved.
-  #- tag: CC|CD|DT|EX|FW|IN|JJ|JJR|JJS|LS|PDT|POS|PRP|RBvRP|TO|UH|WDT|WP|WRB
-  #  skip: 5
+  - pattern: '\b(?:data|metadata)\b'
   - tag: VBP
+    skip: 5
