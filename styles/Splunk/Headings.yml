@@ -18,6 +18,8 @@ exceptions:
   - OpenTelemetry
   - Layer
   - Lambda
+  - Log
+  - Observer
   - Collector
   - Amazon
   - Azure
