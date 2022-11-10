@@ -69,6 +69,7 @@ swap:
   'later': higher for software versions
   'launch': open
   'light mode': light theme
+  'leverage': use
   '(?:log off|Log off)': log out
   'may': might
   'mouse over': hover over
