@@ -2,6 +2,7 @@ extends: existence
 message: "Don't include trademark symbols, copyright symbols, service marks, or logos."
 level: error
 ignorecase: true
+nonword: true
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Third-partyrefs
 tokens:
   - ™
