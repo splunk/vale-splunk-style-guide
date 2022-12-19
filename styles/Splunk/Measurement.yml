@@ -6,10 +6,10 @@ ignorecase: false
 level: warning
 scope: sentence
 tokens:
-  - '(?:\d+|\w+)(?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)'
-  - '[a-zA-Z]+ (?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)'
-  - '(?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)\/second'
-  - '\d+ to \d+ (?:KiB|Kb|KB|Mb|MB|Gb|GB|Tb|TB|TiB|Pb|PB)'
+  - '(?:\d+|\w+)(?:Gb|GB|GHz|KiB|Kb|KB|Mb|MB|Pb|PB|TiB|Tb|TB)'
+  - '[a-zA-Z]+ (?:Gb|GB|GHz|KiB|Kb|KB|Mb|MB|Pb|PB|TiB|Tb|TB)'
+  - '(?:Gb|GB|GHz|KiB|Kb|KB|Mb|MB|Pb|PB|TiB|Tb|TB)\/second'
+  - '\d+ to \d+ (?:Gb|GB|GHz|KiB|Kb|KB|Mb|MB|Pb|PB|TiB|Tb|TB)'
 
 
 
