@@ -119,6 +119,7 @@ swap:
   'TA': add-on
   'tarball': TAR file
   'timeseries': time series or time-series
+  'upsert': Clarify the action, such as "Inserts rows if the rows don't exist, or updates rows if they do exist"
   'URN': URI
   'user name': username
   'userbase': user base
