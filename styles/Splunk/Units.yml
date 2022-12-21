@@ -1,0 +1,16 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+level: error
+ignorecase: false
+scope: sentence
+action:
+  name: replace
+swap:
+    'Ghz': GHz
+    'ghz': GHz
+    'GHZ': GHz
+    'GhZ': GHz
+    'gHz': GHz
+    'ghZ': GHz
+    'gHZ': GHz

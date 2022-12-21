@@ -59,6 +59,8 @@ exceptions:
   - Browser
   - Mobile
   - npm
+  - APM
+  - Protocol
   - curl
   - Instrumentation
   - Internet
