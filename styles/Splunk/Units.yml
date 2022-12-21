@@ -14,3 +14,5 @@ swap:
     'gHz': GHz
     'ghZ': GHz
     'gHZ': GHz
+    'KIB': KiB
+    'TIB': TiB
