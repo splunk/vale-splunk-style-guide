@@ -126,6 +126,7 @@ swap:
   'utilize': use
   'vetted': approved
   '(?:visit|Visit)': go to
+  'wildcarded': Use "wildcard" with an asterisk in parentheses after the term
   'wizard': guided setup
   'wish': want
 
