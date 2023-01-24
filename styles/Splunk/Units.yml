@@ -1,6 +1,6 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
-link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Measurements'
 level: error
 ignorecase: false
 scope: sentence
@@ -14,3 +14,5 @@ swap:
     'gHz': GHz
     'ghZ': GHz
     'gHZ': GHz
+    'KIB': KiB
+    'TIB': TiB
