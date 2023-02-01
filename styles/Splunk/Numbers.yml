@@ -9,4 +9,4 @@ tokens:
   - '\s\d\s(?!hours|seconds|weeks|months|years|minutes)'
   - '3rd-party'
   - '3rd party'
-  - '^\d'
+  - '^\d\s'

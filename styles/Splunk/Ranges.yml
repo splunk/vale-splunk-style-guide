@@ -1,0 +1,9 @@
+extends: existence
+message: 'Use a suitable word, such as "to", "from", or "through", instead of a hyphen between numbers in a range.'
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Ranges
+nonword: true
+ignorecase: true
+level: warning
+scope: sentence
+tokens:
+  - '\d{2,}\-\d{2,}\s\b'
