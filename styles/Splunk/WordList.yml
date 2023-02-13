@@ -14,13 +14,13 @@ swap:
   '(?:UNIX|Linux)': Use *nix if both Linux and UNIX are supported. 
   '(?:addon|add-On|Add-On|AddOn)': add-on|Add-on
   '(?:addons|add-Ons|Add-Ons|AddOns)': add-ons|Add-ons
-  'above': "higher" for software; "earlier" or "previous" for doc locations
+  'above': "'higher' for software; 'earlier' or 'previous' for doc locations"
   'abort': force quit, cancel, fail, close, stop, or end (unless referring to a specific command or system language)
   'allows you to': lets you
   'at present': now
   'basic steps': steps
   'be sure to': make sure
-  'below': "lower" for software; "following", "later", or "next" for doc locations
+  'below': "'lower' for software; 'following', 'later', or 'next' for doc locations"
   'boolean': Boolean
   'bulletproof': safe, secure, solid, or impenetrable 
   'can not': can't|cannot
@@ -28,10 +28,10 @@ swap:
   'check out': see
   'checkbox': check box
   'cog': gear|gear icon
-  'conf file": .conf file
-  '.conf file": .conf file
-  'CONF file": .conf file
-  '.CONF file": .conf file
+  'conf file': ".conf file"
+  '.conf file': ".conf file"
+  'CONF file': ".conf file"
+  '.CONF file': ".conf file"
   'consult': see
   'could': can
   'DA': add-on
