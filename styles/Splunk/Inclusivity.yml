@@ -8,7 +8,11 @@ action:
 swap:
   abnormal: atypical or not typical
   blacklist: deny list, reject, deny, or exclude
+  disable: deactivate, deselect, hide, inactive, turn off
+  disabled: deactivated, deselected, hidden, turned off, unavailable
   dummy data: placeholder data
+  enable: Don't use as the counteraction of turning off a feature. Use activate, select, show, turn on, or the like.
+  enabled: Don't use as the counteraction of turning off a feature. Use activated, selected, turned on, or the like.
   execute: run 
   flesh-colored: dark brown, cream, or beige
   skin-toned: dark brown, cream, or beige
