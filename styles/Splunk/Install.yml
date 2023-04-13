@@ -3,7 +3,6 @@ message: "Don't use install as a noun or adjective. Use installation instead."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
 level: error
 ignorecase: true
-nonword: false
 tokens:
   - tag: NN|NNP|NNPS|NNS|JJ|JJR|JJS
     pattern: 'install(?:\s|$)'

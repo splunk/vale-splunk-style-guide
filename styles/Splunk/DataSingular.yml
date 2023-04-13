@@ -3,7 +3,6 @@ message: "Use data and metadata as mass nouns (singular)."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary#D'
 level: suggestion
 ignorecase: true
-nonword: false
 tokens:
   - pattern: '\b(?:data|metadata)\b'
   - tag: VBP
