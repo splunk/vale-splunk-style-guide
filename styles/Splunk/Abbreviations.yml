@@ -1,0 +1,12 @@
+extends: substitution
+message: "For keyboard shortcuts, use '%s' instead of '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Abbreviations'
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  'Control+': Ctrl+
+  'Ctrl - alt - del': Ctrl+Alt+Del
+  'Ctrl + Alt + Del': Ctrl+Alt+Del
+  'Control+C': Ctrl+C
