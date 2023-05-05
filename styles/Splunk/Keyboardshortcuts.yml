@@ -1,0 +1,12 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/drafts/StyleGuide/Keyboardshortcuts'
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  'Cmd': "Use Command unless there's a space constraint"
+  'Ctrl': "Use Control unless there's a space constraint"
+  'Del': "Use Delete unless there's a space constraint"
+  'Esc': "Use Escape unless there's a space constraint"
