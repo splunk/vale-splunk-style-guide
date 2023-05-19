@@ -16,7 +16,6 @@ swap:
   '(?:addons|add-Ons|Add-Ons|AddOns)': add-ons|Add-ons
   'above': "'higher' for software; 'earlier' or 'previous' for doc locations"
   'abort': force quit, cancel, fail, close, stop, or end (unless referring to a specific command or system language)
-  'allows you to': lets you
   'at present': now
   'basic steps': steps
   'be sure to': make sure
@@ -45,7 +44,6 @@ swap:
   'double-check': check|make sure
   'drop-down': list|menu
   'earlier': lower for software versions
-  'enables you to': lets you
   'end point': endpoint
   'epoch time': UNIX time
   'execute': run
