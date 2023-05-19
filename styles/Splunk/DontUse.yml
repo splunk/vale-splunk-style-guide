@@ -5,7 +5,6 @@ ignorecase: true
 level: error
 tokens:
   - '(?:the|The) (?:Splunk IT Cloud|Splunk Security Cloud|Splunk Observability Cloud)'
-  - allows you to
   - a.k.a.
   - aka
   - and/or
