@@ -104,7 +104,6 @@ swap:
   'show up': appear
   'shows up': appears
   '(?:sign in|Sign in|sign on|Sign on)': log in
-  'specify': select or enter
   '(?:spin up|Spin up)': start
   '(?:spin down|Spin down)': stop
   'SDP': Splunk Developer Portal
