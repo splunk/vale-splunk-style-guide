@@ -1,0 +1,13 @@
+extends: existence
+message: "Don't use the right-angle bracket to describe menu paths. Instead, use a text equivalent like 'then'."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Brackets
+ignorecase: true
+nonword: true
+level: warning
+action:
+  name: edit
+  params:
+    - remove
+    - ' '
+tokens:
+  - '\s[>]\s'

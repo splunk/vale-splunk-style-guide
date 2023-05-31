@@ -1,15 +1,15 @@
 extends: existence
-message: "Rewrite to put the focus on what the user wants to do rather than on how the document is laid out."
+message: "Rewrite to focus on what the user can do rather than what the product does or how the document is laid out."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/AwordaboutSplunkdocs#User-focused'
 ignorecase: true
 level: warning
 tokens:
+  - allows you to
+  - enables you to
+  - lets you
   - The purpose of this document is
   - This document (?:describes|explains|shows)
   - This page (?:describes|explains|shows)
-  - This page (?:describes|explains|shows)
-  - This document (?:describes|explains|shows)
-  - This section (?:describes|explains|shows)
   - This section (?:describes|explains|shows)
   - The following page (?:describes|explains|shows)
   - The following document (?:describes|explains|shows)
