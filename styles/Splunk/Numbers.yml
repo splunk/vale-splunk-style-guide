@@ -5,8 +5,7 @@ nonword: true
 ignorecase: true
 level: warning
 scope: sentence
-tokens:
-  - '\s\d\s(?!hours|seconds|days|weeks|months|years|minutes)'
+tokens:)'
   - '3rd-party'
   - '3rd party'
   - '^\d\s'
