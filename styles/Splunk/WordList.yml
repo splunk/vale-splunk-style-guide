@@ -11,6 +11,7 @@ swap:
   'SIT': Splunk IT Cloud
   'SSC': Splunk Security Cloud
   'SOC': Splunk Observability Cloud
+  'Splunk Observability Cloud platform': Splunk Observability Cloud
   '(?:UNIX|Linux)': Use *nix if both Linux and UNIX are supported. 
   '(?:addon|add-On|Add-On|AddOn)': add-on|Add-on
   '(?:addons|add-Ons|Add-Ons|AddOns)': add-ons|Add-ons
