@@ -92,7 +92,7 @@ swap:
   '(?:read-write|Read-Write|Read-write)': read/write
   '(?:in real-time|in realtime)': real time
   'reboot': restart
-  'read': see
+  '(?:, read|Read)': see
   're-enable': reenable or enable again
   're-enter': reenter or enter again
   '(?:, refer to|Refer to)': see
