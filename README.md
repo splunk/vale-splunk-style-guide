@@ -46,15 +46,3 @@ git submodule update --remote --merge
 # License
 
 This software is licensed under the Apache License 2.0. Details can be found in the file LICENSE.
-
-A service type.
-
-This type of ...
-
-Type
-
-Set the type on
-
-Pinch to zoom out
-
-pinch to zoom out
