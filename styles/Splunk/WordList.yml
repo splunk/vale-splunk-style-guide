@@ -44,7 +44,7 @@ swap:
   '(?:dialogue|dialogue box|modal)': dialog box
   'double-check': check|make sure
   'drop-down': list|menu
-  'earlier': lower for software versions
+  '(?:and|or) earlier': lower for software versions
   'enables you to': lets you
   'end point': endpoint
   'epoch time': UNIX time
@@ -71,7 +71,7 @@ swap:
   'is able to': can
   'kill': quit, stop, or end (unless referring to *nix command or process)
   '(?:key\/value pair|key value pair)': key-value pair
-  'later': higher for software versions
+  '(?:and|or) later': higher for software versions
   'launch': open
   'light mode': light theme
   'leverage': use
@@ -97,7 +97,7 @@ swap:
   'read': see
   're-enable': reenable or enable again
   're-enter': reenter or enter again
-  '(?:refer to|Refer to)': see
+  '(?:, refer to|Refer to)': see
   'referred to as': called
   '(?:regex|RegEx|Regex)': regular expression
   'rerun': run <something> again
@@ -119,7 +119,7 @@ swap:
   'Spunk': Splunk
   '(?:stand-alone|stand alone)': standalone
   'suicide mode': time until restart
-  'toggle': switch
+  '(?:toggle|Toggle)': Use as a verb to move a switch component back and forth between on and off states. Don't call a switch component a "toggle."
   'takes you to': opens
   'TA': add-on
   'tarball': TAR file

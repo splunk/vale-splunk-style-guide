@@ -14,4 +14,4 @@ swap:
   'press': select
   'spread': If there are multiple ways a user can interact with a touch screen, use an input-agnostic term like "zoom in".
   'tap': If there are multiple ways a user can interact with a touch screen, use an input-agnostic term like "select".
-  '(?<!agent |connection |data |device |event |file |issue |license |metric |monitor |resource |source )type(?! of)': Use "enter" to refer to the inputting of text.
+  '(?<!agent |connection |data |device |event |file |issue |license |error |metric |monitor |resource |source )type(?! of)': Use "enter" to refer to the inputting of text.
