@@ -4,7 +4,6 @@ link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usaged
 ignorecase: true
 level: error
 tokens:
-  - '(?:the|The) (?:Splunk IT Cloud|Splunk Security Cloud|Splunk Observability Cloud)'
   - a.k.a.
   - aka
   - and/or
