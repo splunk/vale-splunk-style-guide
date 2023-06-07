@@ -5,7 +5,7 @@ nonword: true
 ignorecase: true
 level: warning
 scope: sentence
-tokens:)'
+tokens:
   - '3rd-party'
   - '3rd party'
   - '^\d\s'
