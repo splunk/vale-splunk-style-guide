@@ -79,8 +79,9 @@ swap:
   'MFA': multifactor authentication
   'multivalued field': multivalue field
   '(?:N\/A|N\.A\.|NA)': n/a
-  'needle-in-a-haystack': Don't use. Find a plain language alternative, like hard-to-find.
+  'needle-in-a-haystack': Find a plain language alternative, like hard-to-find.
   '(?:on premise|on-premise|On premise|On-premise|on prem|on-prem|On prem|On-prem)': on-premises
+  'Observability Cloud': Splunk Observability Cloud
   'path name': path
   'pathname': path
   'percent': \%
