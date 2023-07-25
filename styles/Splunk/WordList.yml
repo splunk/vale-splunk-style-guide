@@ -113,7 +113,7 @@ swap:
   '(?:Splunk dev portal|Splunk Dev Portal)': Splunk Developer Portal
   'Splunk Enterprise platform': Splunk Enterprise
   '(?:Splunk Software|Splunk Software instance)': Splunk software
-  '(?:SplunkWeb|Splunk UI|Splunk Web UI|Web UI|Web Interface)': Splunk Web
+  '(?:SplunkWeb|a Splunk UI|the Splunk UI|Splunk Web UI|Web UI|Web Interface)': Splunk Web
   'Spunk': Splunk
   '(?:stand-alone|stand alone)': standalone
   'suicide mode': time until restart
