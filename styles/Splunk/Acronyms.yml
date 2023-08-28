@@ -1,7 +1,6 @@
 extends: conditional
 message: "'%s' has no definition."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Acronyms
-level: suggestion
 ignorecase: false
 # Ensures that the existence of 'first' implies the existence of 'second'.
 first: '\b([A-Z]{3,5})\b'
