@@ -1,6 +1,7 @@
 extends: existence
 message: "Consider removing '%s'."
 ignorecase: true
+level: warning
 action:
   name: remove
 tokens:
@@ -37,6 +38,7 @@ tokens:
   - coaxingly
   - colorfully
   - continually
+  - commonly
   - completely
   - coolly
   - courageously
