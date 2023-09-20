@@ -1,7 +1,7 @@
 extends: sequence
 message: "Use drilldown as an adjective or noun."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: error
+level: warning
 ignorecase: true
 tokens:
   - tag: NN|JJ
