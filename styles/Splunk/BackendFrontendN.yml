@@ -1,7 +1,7 @@
 extends: sequence
 message: "Hyphenate %[1]s, as %[1]s is an adjective here."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: error
+level: warning
 ignorecase: true
 tokens:
   - pattern: '(?:backend|frontend)'
