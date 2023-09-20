@@ -1,7 +1,7 @@
 extends: existence
 message: "Don't use periods or exclamation marks in headings."
 nonword: true
-level: error
+level: warning
 scope: heading
 action:
   name: edit
