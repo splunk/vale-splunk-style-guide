@@ -1,7 +1,7 @@
 extends: sequence
 message: "Use %[1]s-%[2]s %[3]s, as %[1]s-%[2]s is an adjective here."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: error
+level: warning
 ignorecase: true
 tokens:
   - pattern: '(?:back|front)'
