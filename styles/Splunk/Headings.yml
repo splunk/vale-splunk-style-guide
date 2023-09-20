@@ -1,7 +1,7 @@
 extends: capitalization
 message: "'%s' should use sentence-style capitalization."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Capitalization
-level: suggestion
+level: warning
 scope: heading
 match: $sentence
 indicators:
