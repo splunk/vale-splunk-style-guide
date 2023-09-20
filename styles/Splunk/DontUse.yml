@@ -2,7 +2,7 @@ extends: existence
 message: "Don't use '%s'."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary
 ignorecase: true
-level: error
+level: warning
 tokens:
   - a.k.a.
   - aka
@@ -22,7 +22,5 @@ tokens:
   - recommend
   - recommended
   - remember
-  - right
   - thus
   - very
-  - datum
