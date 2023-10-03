@@ -1,0 +1,10 @@
+extends: existence
+message: "Don't use '%s' as the counteraction of turning off a feature. Use activate, select, show, turn on, or the like."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary
+ignorecase: true
+level: warning
+tokens:
+  - enable
+  - enables
+  - enabled
+  - enabling
