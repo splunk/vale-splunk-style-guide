@@ -1,5 +1,5 @@
 extends: substitution
-message: "Avoid device-specific language. Use '%s' instead of '%s'."
+message: "Avoid device-specific language as much as possible. Use '%s' instead of '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Deviceagnosticism'
 level: error
 ignorecase: true
@@ -9,9 +9,8 @@ swap:
   'click': select
   'choose': select
   'hit': select
-  'long press': If there are multiple ways a user can interact with a touch screen, use an input-agnostic term like "select and hold".
-  'pinch': If there are multiple ways a user can interact with a touch screen, use an input-agnostic term like "zoom out".
+  'long press': select and hold
+  'pinch': zoom out
   'press': select
-  'spread': If there are multiple ways a user can interact with a touch screen, use an input-agnostic term like "zoom in".
-  'tap': If there are multiple ways a user can interact with a touch screen, use an input-agnostic term like "select".
-  '(?<!agent |connection |data |device |event |file | incident |issue |license |error |metric |monitor |resource |service |source )type(?! of|$|`)': Use "enter" to refer to the inputting of text.
+  'spread': zoom in
+  'tap': select
