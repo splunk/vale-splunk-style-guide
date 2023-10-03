@@ -1,8 +1,8 @@
 extends: existence
-message: "Use 12-hour time (for example, 12 AM). For full hours, don't include the minutes. Capitalize AM and PM without using punctuation, and precede the time period with a space."
+message: "Use 12-hour time. For full hours, don't include the minutes. Capitalize AM and PM without punctuation, and precede the time period with a space."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time#12-hour_clock
 ignorecase: true
-level: error
+level: warning
 nonword: true
 tokens:
   - '\d{1,2}.\d{1,2} hours'
