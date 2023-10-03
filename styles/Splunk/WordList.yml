@@ -112,6 +112,6 @@ swap:
   'utilize': use
   'vetted': approved
   '(?:visit|Visit)': go to
-  'wildcarded': wildcard
+  'wildcarded': wildcard (*)
   'wizard': guided setup
   'wish': want
