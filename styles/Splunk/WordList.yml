@@ -1,21 +1,16 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: error
+level: warning
 ignorecase: false
 action:
   name: replace
 swap:
-  'The Splunk Platform': The Splunk platform
-  '^Splunk platform': The Splunk platform
-  'SIT': Splunk IT Cloud
-  'SSC': Splunk Security Cloud
-  'Splunk Observability Cloud platform': Splunk Observability Cloud
-  '(?:UNIX|Linux)': Use *nix if both Linux and UNIX are supported. 
+  '(?:UNIX|Linux)': *nix 
   '(?:addon|add-On|Add-On|AddOn)': add-on|Add-on
   '(?:addons|add-Ons|Add-Ons|AddOns)': add-ons|Add-ons
   'above': "'higher' for software; 'earlier' or 'previous' for doc locations"
-  'abort': force quit, cancel, fail, close, stop, or end (unless referring to a specific command or system language)
+  'abort': force quit, cancel, fail, close, stop, or end
   'at present': now
   'basic steps': steps
   'be sure to': make sure
@@ -41,8 +36,7 @@ swap:
   'demonstrate': show
   'desire': want
   '(?:dialogue|dialogue box|modal)': dialog box
-  'double-check': check|make sure
-  'drop-down': list|menu
+  'double-check': check or make sure
   '(?:and|or) earlier': lower for software versions
   'end point': endpoint
   'epoch time': UNIX time
@@ -62,12 +56,11 @@ swap:
   'have plans': plan
   'have the option to': can
   'hex': hexadecimal
-  'hit': select or enter
   'homepage': home page
   'hostname': host name
   'Internet': internet
   'is able to': can
-  'kill': quit, stop, or end (unless referring to *nix command or process)
+  'kill': quit, stop, or end
   '(?:key\/value pair|key value pair)': key-value pair
   '(?:and|or) later': higher for software versions
   'launch': open
@@ -79,7 +72,7 @@ swap:
   'MFA': multifactor authentication
   'multivalued field': multivalue field
   '(?:N\/A|N\.A\.|NA)': n/a
-  'needle-in-a-haystack': Find a plain language alternative, like hard-to-find.
+  'needle-in-a-haystack': hard-to-find
   '(?:on premise|on-premise|On premise|On-premise|on prem|on-prem|On prem|On-prem)': on-premises
   'path name': path
   'pathname': path
@@ -98,7 +91,7 @@ swap:
   '(?:, refer to|Refer to)': see
   'referred to as': called
   '(?:regex|RegEx|Regex)': regular expression
-  'rerun': run <something> again
+  'rerun': run again
   '(?:run time|Run time|run-time|Run-time)': runtime
   'SA': add-on
   'show up': appear
@@ -106,33 +99,19 @@ swap:
   '(?:sign in|Sign in|sign on|Sign on)': log in
   '(?:spin up|Spin up)': start
   '(?:spin down|Spin down)': stop
-  'SDP': Splunk Developer Portal
-  'stack': Use only in specific cases where the word "stack" is used, like in the name of a CLI command or an API. Don't use to refer to a Splunk Cloud Platform deployment.
-  'Splunk Cloud ?(?:[^\s]*)': Splunk Cloud Platform 
-  '(?:Splunk dev portal|Splunk Dev Portal)': Splunk Developer Portal
-  'Splunk Enterprise platform': Splunk Enterprise
-  '(?:Splunk Software|Splunk Software instance)': Splunk software
-  '(?:SplunkWeb|a Splunk UI|the Splunk UI|Splunk Web UI|Web UI|Web Interface)': Splunk Web
-  'Spunk': Splunk
   '(?:stand-alone|stand alone)': standalone
   'suicide mode': time until restart
-  '(?:toggle|Toggle)': Use as a verb to move a switch component back and forth between on and off states. Don't call a switch component a "toggle."
   'takes you to': opens
   'TA': add-on
   'tarball': TAR file
   'timeseries': time series or time-series
-  'upsert': Clarify the action, such as "Inserts rows if the rows don't exist, or updates rows if they do exist"
+  'upsert': insert or update
   'URN': URI
   'user name': username
   'userbase': user base
   'utilize': use
   'vetted': approved
   '(?:visit|Visit)': go to
-  'wildcarded': Use "wildcard" with an asterisk in parentheses after the term
+  'wildcarded': wildcard
   'wizard': guided setup
   'wish': want
-
-
-
-
-
