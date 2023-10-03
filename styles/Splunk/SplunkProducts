@@ -1,0 +1,21 @@
+extends: substitution
+message: "Use '%s' instead of '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Terminology'
+level: error
+ignorecase: false
+action:
+  name: replace
+swap:
+  'Observability Cloud': Splunk Observability Cloud
+  '^Splunk platform': The Splunk platform
+  'SIT': Splunk IT Cloud
+  'SSC': Splunk Security Cloud
+  'Splunk Observability Cloud platform': Splunk Observability Cloud
+  'SDP': Splunk Developer Portal
+  'Splunk Cloud ?(?:[^\s]*)': Splunk Cloud Platform 
+  '(?:Splunk dev portal|Splunk Dev Portal)': Splunk Developer Portal
+  'Splunk Enterprise platform': Splunk Enterprise
+  '(?:Splunk Software|Splunk Software instance)': Splunk software
+  '(?:SplunkWeb|a Splunk UI|the Splunk UI|Splunk Web UI|Web UI|Web Interface)': Splunk Web
+  'Spunk': Splunk
+  'The Splunk Platform': The Splunk platform
