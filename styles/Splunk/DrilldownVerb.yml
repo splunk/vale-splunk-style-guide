@@ -1,7 +1,7 @@
 extends: sequence
 message: "Use drill down as a verb."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: error
+level: warning
 ignorecase: true
 tokens:
   - tag: VB|VBD|VBG|VBN|VBP|VBZ
