@@ -1,5 +1,5 @@
 extends: existence
-message: "Don't use em or en dashes in Splunk documentation."
+message: "Don't use em or en dashes."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Dashes
 ignorecase: true
 nonword: true
