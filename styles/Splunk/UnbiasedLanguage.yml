@@ -1,0 +1,15 @@
+extends: substitution
+message: "Strive for unbiased language. Use '%s' instead of '%s'."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Inclusivity'
+level: error
+ignorecase: true
+action:
+  name: replace
+swap:
+  blacklist: deny list, reject, deny, or exclude
+  grandfather: exempt
+  grandfathered: exempt
+  master: manager, primary, or main
+  master branch: main branch
+  slave: peer or replica
+  whitelist: allow list, allow, accept, or include
