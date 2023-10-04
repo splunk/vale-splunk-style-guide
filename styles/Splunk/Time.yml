@@ -1,5 +1,5 @@
 extends: existence
-message: "Use a numeral for numbers associated with duration of time. Do this even if the number is less than 10."
+message: "Use a numeral for numbers associated with duration of time."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Time
 nonword: true
 ignorecase: false
