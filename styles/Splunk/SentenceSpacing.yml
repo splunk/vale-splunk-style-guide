@@ -1,6 +1,6 @@
 extends: existence
 message: "Don't use two spaces between words. Use only one space at the end of a sentence."
-level: error
+level: warning
 nonword: true
 tokens:
   - '[a-z][.?!,][A-Z]'
