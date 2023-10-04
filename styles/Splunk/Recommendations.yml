@@ -1,5 +1,5 @@
 extends: existence
-message: "Don't make specific recommendations, but instead guide the reader to the best choice using concrete language and direct instructions."
+message: "Don't make recommendations. Guide the reader to the best choice using specific language and direct instructions."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Recommendations'
 ignorecase: true
 level: warning
