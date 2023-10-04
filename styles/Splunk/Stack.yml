@@ -1,0 +1,7 @@
+extends: existence
+message: "Use only in specific cases where the word 'stack' is used, like in the name of a CLI command or an API. Don't use to refer to a Splunk Cloud Platform deployment."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
+ignorecase: true
+level: warning
+tokens:
+  - stack
