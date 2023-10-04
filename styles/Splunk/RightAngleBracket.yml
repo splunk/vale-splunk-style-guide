@@ -1,5 +1,5 @@
 extends: existence
-message: "Don't use the right-angle bracket to describe menu paths. Instead, use a text equivalent like 'then'."
+message: "Don't use right-angle brackets to describe menu paths. Use a text equivalent like 'then'."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Brackets
 ignorecase: true
 nonword: true
