@@ -1,5 +1,5 @@
 extends: existence
-message: "This number might not be properly formatted."
+message: "Spell out 'third-party'."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals
 nonword: true
 ignorecase: true
