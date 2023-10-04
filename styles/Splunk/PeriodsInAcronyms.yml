@@ -1,7 +1,7 @@
 extends: existence
-message: "Don't use periods with acronyms or initialisms such as '%s'."
+message: "Don't use periods with acronyms or initialisms in '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Period'
-level: error
+level: warning
 nonword: true
 tokens:
   - '\b(?:[A-Z]\.){3,}'
