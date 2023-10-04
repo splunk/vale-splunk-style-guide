@@ -1,5 +1,5 @@
 extends: substitution
-message: "Strive for unbiased language. Use '%s' instead of '%s'."
+message: "Remove biased language. Use '%s' instead of '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Inclusivity'
 level: error
 ignorecase: true
