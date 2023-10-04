@@ -1,6 +1,6 @@
 extends: existence
-message: "Rewrite '%s' to not use 's."
-level: error
+message: "Rewrite '%s' to not be possessive."
+level: warning
 ignorecase: true
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Possessives
 tokens:
