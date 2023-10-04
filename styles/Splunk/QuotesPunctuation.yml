@@ -1,7 +1,7 @@
 extends: existence
 message: 'Put punctuation outside the quotation marks.'
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Quotationmarks
-level: error
+level: warning
 nonword: true
 tokens:
   - '["“][^"”“]+[.,]["”]'
