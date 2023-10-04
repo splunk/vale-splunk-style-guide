@@ -1,8 +1,8 @@
 extends: existence
-message: "Only use parentheses to introduce an abbreviation, to identify an optional step in a task, or when part of a command. Don't use parentheses in place of commas, to enclose a complete sentence, or to include unnecessary information or an afterthought."
+message: "Use parentheses to introduce an abbreviation or identify an optional step in a task. Don't use parenthesis in place of commas or to include unnecessary information or an afterthought."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Parentheses'
 nonword: false
-level: warning
+level: suggestion
 tokens:
   - '\([a-z].+\)'
   - '\([A-Z][a-z].+\)'
