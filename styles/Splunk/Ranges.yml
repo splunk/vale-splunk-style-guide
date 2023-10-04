@@ -1,5 +1,5 @@
 extends: existence
-message: 'Use a suitable word, such as "to", "from", or "through", instead of a hyphen between numbers in a range.'
+message: 'Use "to", "from", or "through" instead of a hyphen between numbers in a range.'
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Ranges
 nonword: true
 ignorecase: true
