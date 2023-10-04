@@ -2,7 +2,7 @@ extends: existence
 message: 'Use a lowercase "x" in HTTP status codes and product version numbers.'
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary
 ignorecase: false
-level: error
+level: warning
 tokens:
   - '[0-9]+[X]+[X]'
   - '[0-9]+[X]+[x]'
