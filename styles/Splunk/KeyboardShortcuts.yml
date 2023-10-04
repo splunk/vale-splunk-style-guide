@@ -1,7 +1,7 @@
 extends: substitution
 message: "Use '%s' instead of '%s'."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/drafts/StyleGuide/Keyboardshortcuts'
-level: error
+level: warning
 ignorecase: false
 action:
   name: replace
