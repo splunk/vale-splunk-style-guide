@@ -1,5 +1,5 @@
 extends: existence
-message: "Use a numeral when quantifying a unit of measurement or a rate. Add a space between the numeral and the rate measurement. Use the word 'per' to describe a volume measurement."
+message: "Use a number for rates and measurements, and include a space after the number."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Measurements
 nonword: true
 ignorecase: false
