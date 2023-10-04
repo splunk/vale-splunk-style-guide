@@ -1,7 +1,7 @@
 extends: sequence
-message: "Use real-time %[3]s, as real-time is an adjective here."
+message: "Use real-time %[3]s, because real-time is an adjective here."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: error
+level: warning
 tokens:
   - pattern: 'real'
   - pattern: 'time'
