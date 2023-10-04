@@ -1,0 +1,8 @@
+extends: existence
+message: "Use parentheses to introduce an abbreviation or identify an optional step in a task. Don't use parenthesis in place of commas or to include unnecessary information or an afterthought."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Parentheses'
+nonword: false
+level: suggestion
+tokens:
+  - '\([a-z].+\)'
+  - '\([A-Z][a-z].+\)'
