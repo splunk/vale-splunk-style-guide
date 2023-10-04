@@ -1,8 +1,8 @@
 extends: existence
-message: "Try splitting this sentence into two sentences."
+message: "Avoid semicolons. Split the sentence into two."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Technicallanguage
 nonword: true
 scope: sentence
-level: suggestion
+level: warning
 tokens:
   - ';'
