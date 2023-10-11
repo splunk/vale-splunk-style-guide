@@ -2,6 +2,6 @@ extends: existence
 message: 'Spell out "version" instead of abbreviating with a "v".'
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary
 ignorecase: true
-level: error
+level: warning
 tokens:
   - '[v|V][0-9]+\.[0-9]+'
