@@ -1,0 +1,9 @@
+extends: existence
+message: "Spell out numbers at the start of a sentence."
+link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Numbersornumerals#Don.27t_start_a_sentence_with_a_numeral
+nonword: true
+ignorecase: true
+level: warning
+scope: sentence
+tokens:
+  - '^\d\s'
