@@ -6,7 +6,7 @@ ignorecase: false
 action:
   name: replace
 swap:
-  'Observability Cloud': Splunk Observability Cloud
+  '(?<!Splunk\s)Observability Cloud(?! Cloud)': Splunk Observability Cloud
   '^Splunk platform': The Splunk platform
   'SIT': Splunk IT Cloud
   'SSC': Splunk Security Cloud
