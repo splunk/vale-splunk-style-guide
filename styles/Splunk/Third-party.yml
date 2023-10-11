@@ -8,4 +8,4 @@ scope: sentence
 tokens:
   - '3rd-party'
   - '3rd party'
-  - '^\d\s'
+
