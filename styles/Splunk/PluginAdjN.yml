@@ -1,7 +1,7 @@
 extends: sequence
 message: "Use plugin as an adjective or noun."
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
-level: w
+level: warning
 ignorecase: true
 tokens:
   - tag: NN|JJ

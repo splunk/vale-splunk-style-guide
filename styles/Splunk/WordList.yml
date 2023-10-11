@@ -1,12 +1,12 @@
 extends: substitution
-message: "Use '%s' instead of '%s'."
+message: 'Use "%s" instead of "%s".'
 link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usagedictionary'
 level: warning
 ignorecase: false
 action:
   name: replace
 swap:
-  '(?:UNIX|Linux)': *nix 
+  '(?:UNIX|Linux)': "*nix" 
   '(?:addon|add-On|Add-On|AddOn)': add-on|Add-on
   '(?:addons|add-Ons|Add-Ons|AddOns)': add-ons|Add-ons
   'above': "'higher' for software; 'earlier' or 'previous' for doc locations"
