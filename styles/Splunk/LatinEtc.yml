@@ -1,0 +1,9 @@
+extends: existence
+message: "Don't use Latin abbreviations or terms. Be specific and concrete when you write."
+link: 'https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/USspelling'
+level: warning
+ignorecase: false
+scope: sentence
+tokens:
+  - 'etc'
+  - 'etc.'
