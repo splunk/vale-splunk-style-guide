@@ -11,7 +11,6 @@ swap:
   '\b(?:ie|i\.e\.)[\s,]': that is
   'ad-hoc': if needed
   'ad hoc': if needed
-  '[\s]et al[\s]': and others
   '[\s]etc[\s|.]': and so on
   '[\s]via[\s]': through
   'vice versa': and the reverse
