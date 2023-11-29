@@ -3,17 +3,17 @@
 # Get started
 
 1. Clone the repository.
-2. Install Vale with `brew install vale` or similar commands. See [Installation](https://docs.errata.ai/vale/install).
+2. Install Vale with `brew install vale` or similar commands. See [Installation](https://vale.sh/docs/vale-cli/installation/).
 3. (Optional) Install the [Vale add-on for Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=errata-ai.vale-server).
 4. (Optional) Set `vale.core.useCLI` to `true` in the extension settings.
 5. Run `vale .` from the root folder of the repo, or save/edit a file using Visual Studio Code.
 
-For more information, see [Usage](https://docs.errata.ai/vale/cli).
+For more information, see [Scoping](https://vale.sh/docs/topics/scoping/).
 
 # Folder structure
 
-- `.vale.ini` contains the Vale settings. See [Configuration](https://docs.errata.ai/vale/config).
-- `styles/Splunk` contains the Splunk rules for Vale. See [Styles](https://docs.errata.ai/vale/styles).
+- `.vale.ini` contains the Vale settings. See [Configuration](https://vale.sh/docs/topics/config/).
+- `styles/Splunk` contains the Splunk rules for Vale. See [Styles](https://vale.sh/docs/topics/styles/).
 
 # Use as a git submodule
 
@@ -40,7 +40,7 @@ git submodule update --remote --merge
 
 # Resources
 
-- [Vale's official documentation](https://docs.errata.ai/vale/about)
+- [Vale's official documentation](https://vale.sh/docs/vale-cli/overview/)
 - [Regex101, a web-based regular expressions editor](https://regex101.com/)
 
 # License
