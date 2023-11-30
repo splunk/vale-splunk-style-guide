@@ -80,16 +80,12 @@ swap:
   'perform': run
   'point to': hover over
   'preconfigured': configured
-  'reach a decision': decide
   '(?:read only|Read only|Read-Only|readonly|Readonly)': read-only
   '(?:read-write|Read-Write|Read-write)': read/write
   '(?:in real-time|in realtime)': real time
   'reboot': restart
-  '(?:, read|Read)': see
   're-enable': reenable or enable again
   're-enter': reenter or enter again
-  '(?:, refer to|Refer to)': see
-  'referred to as': called
   '(?:regex|RegEx|Regex)': regular expression
   'rerun': run again
   '(?:run time|Run time|run-time|Run-time)': runtime
