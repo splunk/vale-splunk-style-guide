@@ -21,12 +21,7 @@ swap:
   'carriage return': line break
   'check out': see
   'checkbox': check box
-  'cog': gear|gear icon
-  'conf file': ".conf file"
-  '.conf file': ".conf file"
-  'CONF file': ".conf file"
-  '.CONF file': ".conf file"
-  'consult': see
+  '(?:conf file|.conf file|CONF file|.CONF file)': .conf file
   'could': can
   'DA': add-on
   'dark mode': dark theme
@@ -53,7 +48,6 @@ swap:
   'hard coding': hard-coding
   'have been': are
   'have knowledge of': know
-  'have plans': plan
   'have the option to': can
   'hex': hexadecimal
   'homepage': home page
@@ -80,16 +74,12 @@ swap:
   'perform': run
   'point to': hover over
   'preconfigured': configured
-  'reach a decision': decide
   '(?:read only|Read only|Read-Only|readonly|Readonly)': read-only
   '(?:read-write|Read-Write|Read-write)': read/write
   '(?:in real-time|in realtime)': real time
   'reboot': restart
-  '(?:, read|Read)': see
   're-enable': reenable or enable again
   're-enter': reenter or enter again
-  '(?:, refer to|Refer to)': see
-  'referred to as': called
   '(?:regex|RegEx|Regex)': regular expression
   'rerun': run again
   '(?:run time|Run time|run-time|Run-time)': runtime
