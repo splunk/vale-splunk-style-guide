@@ -2,10 +2,11 @@ extends: capitalization
 message: "'%s' should use sentence-style capitalization."
 link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Capitalization
 level: warning
-scope: heading
+scope:
+    - heading.h1
+    - heading.h2
+    - heading.h3
 match: $sentence
-indicators:
-  - ':'
 exceptions:
   - Splunk
   - Splunk Enterprise
@@ -93,3 +94,4 @@ exceptions:
   - Performance
   - DB
   - Monitor
+  - On-Call
