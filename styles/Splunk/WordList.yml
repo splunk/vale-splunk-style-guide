@@ -91,6 +91,7 @@ swap:
   '(?:spin down|Spin down)': stop
   '(?:stand-alone|stand alone)': standalone
   'suicide mode': time until restart
+  'synch': sync or synchronized 
   'takes you to': opens
   'TA': add-on
   'tarball': TAR file
