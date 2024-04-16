@@ -84,6 +84,7 @@ swap:
   'rerun': run again
   '(?:run time|Run time|run-time|Run-time)': runtime
   'SA': add-on
+  ‘scroll’: read, skim
   'show up': appear
   'shows up': appears
   '(?:sign in|Sign in|sign on|Sign on)': log in
