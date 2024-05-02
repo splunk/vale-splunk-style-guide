@@ -4,7 +4,7 @@ link: https://docs.splunk.com/Documentation/StyleGuide/current/StyleGuide/Usaged
 ignorecase: true
 level: warning
 tokens:
-  - a.k.a.
+  - a\.k\.a\.
   - aka
   - and/or
   - at this point
@@ -23,4 +23,4 @@ tokens:
   - recommended
   - thus
   - very
-  - ...
+  - \.\.\.
