@@ -30,7 +30,7 @@ swap:
   'data set': dataset
   'demonstrate': show
   'desire': want
-  '(?:dialogue|dialogue box|modal)': dialog box
+  '(?:dialogue|dialogue box|modal|pop-up)': dialog box
   'double-check': check or make sure
   '(?:and|or) earlier': lower for software versions
   'end point': endpoint
