@@ -35,6 +35,7 @@ swap:
   '(?:and|or) earlier': lower for software versions
   'end point': endpoint
   'epoch time': UNIX time
+  'ex\.': for example
   'execute': run
   'fatal': unrecoverable
   'fetch': retrieve
